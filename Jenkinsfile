@@ -6,6 +6,7 @@ pipeline {
                 sh 'pip install pybuilder'
                 sh 'virtualenv venv'
                 sh 'source venv/bin/activate'
+                cd '/home/edcuser/pybuild'
                 sh 'pyb install_dependencies'
             }
         }
