@@ -1,10 +1,9 @@
 pipeline {
-    agent { docker { image 'python:3.8.6' } }
+    agent any 
     stages {
-        stage('build') {
+        stage('Stage 1') {
             steps {
-                sh 'pip install pybuilder'
-                sh 'pyb install_dependencies'
+                sh 'pyb install_dependencies' 
             }
         }
     }
