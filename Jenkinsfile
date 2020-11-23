@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'pip install pybuilder'
-                sh 'pyb install_dependencies'
+                sh 'sudo pip install pybuilder'
+                sh 'sudo pyb install_dependencies'
             }
         }
     }
