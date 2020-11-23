@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'pyb install_dependencie'
+                sh 'pyb install_dependencies'
             }
         }
     }
