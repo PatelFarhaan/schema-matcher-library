@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Coverage
+cov.xml
+.coverage
+htmlcov/
+
+# Environment
+.env
+
+# Credentials and keys
+*.pem
+*.key
+credentials.csv
+
+# Logs
+*.log
